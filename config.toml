@@ -1,0 +1,43 @@
+# The URL the site will be built for
+base_url = "https://antonangeletti.com"
+theme = "particle-zola"
+description = "yap yap yap"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+# Put all your custom variables here
+username = "Anton Angeletti"
+user_intro = "hey, i'm anton"
+user_title = "i do computers"
+email = "angelettianton@gmail.com"
+github_username = "anton-3"
+linkedin_username = "anton-angeletti"
+user_description = "yap yap yap"
+frontend_description = "lmao lmao lmao lmao lmao lmao lmao lmao lmao lmao lmao lmao"
+backend_description = "lmao lmao lmao lmao lmao lmao lmao lmao lmao lmao lmao lmao"
+tools_description = "lmao lmao lmao lmao lmao lmao lmao lmao lmao lmao lmao lmao"
+
+project1_title = "lucky liars"
+project1_description = "this is a project this is a project this is a project this is a project this is a project this is a project this is a project this is a project this is a project"
+project1_link = "https://github.com/bald-rs/lucky-liars"
+project1_img = "/img/mountains.jpg"
+
+project2_title = "eduwiz"
+project2_description = "this is a project this is a project this is a project this is a project this is a project this is a project this is a project this is a project this is a project"
+project2_link = "https://github.com/bald-rs/eduwiz"
+project2_img = "/img/skate.jpg"
+
+project3_title = "lexi"
+project3_description = "this is a project this is a project this is a project this is a project this is a project this is a project this is a project this is a project this is a project"
+project3_link = "https://github.com/anton-3/lexi"
+project3_img = "/img/mountains.jpg"
