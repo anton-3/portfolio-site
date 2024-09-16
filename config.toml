@@ -2,6 +2,7 @@
 base_url = "https://antonangeletti.com"
 theme = "particle-zola"
 description = "My portfolio website"
+title = "Anton Angeletti"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -22,12 +23,15 @@ user_title = "i do computers"
 email = "angelettianton@gmail.com"
 github_username = "anton-3"
 linkedin_username = "anton-angeletti"
-user_description = "I'm a student at University of Nebraska-Lincoln, double majoring in Computer Science and Mathematics with a minor in Music. My interests include cybersecurity, software development, and networking, and I have experience in building full-stack web applications. In my free time, I like to go to hackathons, compete in <a target='_blank' href='https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)'>CTFs</a>, and play piano. I'm also pretty good at <a target='_blank' href='https://www.worldcubeassociation.org/persons/2024ANGE07'>solving Rubik's cubes</a>. Scroll down to see my portfolio!"
+resume_link = "/resume.pdf"
+user_description = "I'm a student at University of Nebraska-Lincoln, double majoring in Computer Science and Mathematics with a minor in Music. My interests include cybersecurity, software development, and networking, and I have experience in building full-stack web applications. In my free time, I like to go to hackathons, compete in <a target='_blank' href='https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)'>CTFs</a>, and play piano. I'm also pretty good at <a target='_blank' href='https://www.worldcubeassociation.org/persons/2024ANGE07'>solving Rubik's cubes</a>. Check out my <a target='_blank' href='/resume.pdf'>resume</a>, or scroll down to see my portfolio!"
 frontend_description = "On the frontend, I have experience in HTML, JavaScript, and React. In the projects I've worked on, my goal is always to build responsive and dynamic web applications with a focus on user experience and performance."
 backend_description = "For backend development, the technologies I'm most skilled in are Node.js, Java, and Python, among others. In my current internship, most of my work is in developing Spring Boot applications in Java and Groovy."
-tools_description = "I have experience with several software engineering tools, including Git/GitHub, Linux, the IntelliJ IDE, and others. I've used Git and GitHub in quite a few personal projects over the years, and I run Arch Linux on my personal laptop."
+tools_description = "I have experience with several software engineering tools, including Git/GitHub, Linux, the IntelliJ IDE, and others. I'm also comfortable working in agile environments, where I collaborate closely with teams to meet project goals."
 
 # TODO: replace the images with images of the projects, the hackathon pics are just a placeholder for now
+# unless I decide I like the hackathon pics
+# whenever I have a non-hackathon project to add then I'll change it bro trust 🙏
 project1_title = "lucky liars"
 project1_description = "Lucky Liars is an AI-powered murder mystery game written in Rust, with a Node.js API and an integrated hardware display. It uses LLMs for character dialogue in-game, creating a unique experience every playthrough. I built it on a team of 4 at <a target='_blank' href='https://unlcornhacks.com/#/home'>CornHacks</a> 2024, and we ended up winning 1st place."
 project1_link = "https://github.com/bald-rs/lucky-liars"
